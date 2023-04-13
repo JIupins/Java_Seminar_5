@@ -39,6 +39,7 @@ public class hw2 {
             Integer count = tMap.get(item);
             tMap.put(item, (count == null) ? 1 : count + 1);
         }
+        System.out.printf("\n").println(tMap.toString());
         return tMap;
     }
 
